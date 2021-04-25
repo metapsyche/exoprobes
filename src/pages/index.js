@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Strong } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Strong, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Section, StackItem, Stack } from "@quarkly/components";
@@ -160,6 +160,58 @@ export default (() => {
 					</Text>
 				</StackItem>
 			</Stack>
+		</Section>
+		<Section text-align="center" padding="100px 0" sm-padding="40px 0">
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="20px 0 0 0">
+				Transmissions
+			</Text>
+			<Text as="p" font="--lead" margin="20px 0 0 0">
+				At the moment, only a couple of transmitted exoplanet images were received.{" "}
+				<br />
+				New ones will be minted and uploaded to the IPFS as soon as they arrive.
+				<br />
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					<Link
+						href="https://www.hicetnunc.xyz/objkt/47627"
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						ExoProbes0001
+					</Link>
+					<br />
+					<Link
+						href="https://www.hicetnunc.xyz/objkt/47750"
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						ExoProbes0002
+					</Link>
+				</Strong>
+			</Text>
+			<Box display="flex" margin="40px 0 20px 0" justify-content="space-around" sm-flex-direction="column">
+				<Box padding="10px">
+					<Image src="https://uploads.quarkly.io/6085970723a143001e08fffc/images/ExoProbes0001.jpg?v=2021-04-25T22:26:32.700Z" width="320px" max-width="100%" />
+				</Box>
+				<Box padding="10px">
+					<Image src="https://uploads.quarkly.io/6085970723a143001e08fffc/images/ExoProbes0002.jpg?v=2021-04-25T22:26:01.388Z" width="320px" max-width="100%" />
+				</Box>
+				<Box padding="10px" />
+			</Box>
 		</Section>
 		<Link
 			font={"--capture"}
