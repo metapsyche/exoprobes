@@ -75,6 +75,10 @@ export default (() => {
 				</StackItem>
 				<StackItem width="25%" md-width="100%">
 					<Text margin="0px">
+						The images are available as a collection of NFTs at hicetnunc.xyz{" "}
+						<Link href="#">
+							here
+						</Link>
 						.
 					</Text>
 				</StackItem>
