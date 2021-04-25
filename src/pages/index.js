@@ -152,8 +152,8 @@ export default (() => {
 				</StackItem>
 				<StackItem width="25%" md-width="100%">
 					<Text margin="0px">
-						The images are available as a collection of NFTs at hicetnunc.xyz{" "}
-						<Link href="#">
+						The images are available as a collection of NFTs{" "}
+						<Link href="https://www.hicetnunc.xyz/tz/tz1a1n1YMLaMAXbHRvAAW2CAUEqqjdeqmgst">
 							here
 						</Link>
 						.
