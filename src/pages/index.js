@@ -26,9 +26,6 @@ export default (() => {
 				>
 					ExoProbes
 				</Text>
-				<Text as="h2" font="--headline2" margin="0 0 12px 0">
-					.
-				</Text>
 				<Text font="--base">
 					In 2082, ExoProbes were launched to survey exoplanets around nearby stars.{" "}
 					<br />
@@ -56,22 +53,18 @@ export default (() => {
 			>
 				Meta-INFORMATION
 			</Text>
-			<Text
-				as="h1"
-				margin="8px 0px 32px"
-				font="--headline1"
-				md-font="--headline2"
-				color="--dark"
-				max-width="850px"
-			>
-				About the Images
-			</Text>
 			<Stack margin-top="auto" color="--grey" font="--base">
 				<StackItem width="75%" md-width="100%">
 					<Text margin="0px" max-width="600px">
-						The "exoplanet" images are created using a microscope and a digital camera. A chosen object that serves as a "seed" for the planet is placed under a microscope. Then a camera pointed directly into the eyepiece is used to take a picture. This serves as a simulation of the ExoProbe taking a picture of the planet.{" "}
+						<Strong>
+							The Exoplanet Photographs
+							<br />
+							<br />
+						</Strong>
+						The "exoplanet" images were created using a microscope and a digital camera. A tiny object placed under a microscope serves as a "seed" for a planet. Then a camera pointed directly into the eyepiece takes the picture. This serves as a simulation of the ExoProbe capturing a photograph of the exoplanet.{" "}
 						<br />
-						There is no digital manipulation used on the images. This is intentional so as to preserve the imperfections and to simulate the noise that will be in the introduced in the transmissions beamed from lightyears away.{" "}
+						<br />
+						There is no digital manipulation used on the captured images. This is to model the unstable conditions that the exoprobe experienced while capturing the image. And to preserve the imperfections and simulate the noise introduced into the image while in transit. After all, these image transmissions were beamed from lightyears away.
 						<br />
 						<br />
 						<Strong
@@ -83,6 +76,7 @@ export default (() => {
 							hyphens="manual"
 						>
 							The InterPlanetary File System
+							<br />
 						</Strong>
 						<br />
 						The exoplanet images are stored in the InterPlanetary File System (IPFS) and tokenized as NFTs in the Blockchain to preserve them for as long as possible until the actual events take place--that is, when we finally receive actual transmissions from ExoProbes! We have yet to launch the ExoProbes but hey, this a good start!
@@ -97,11 +91,12 @@ export default (() => {
 							hyphens="manual"
 						>
 							History
+							<br />
 						</Strong>
 						<br />
-						Sometime in 2010, I was interested in Exoplanets and all the new exoplanet discoveries being made. Then one day, me and my son found a microscope on the sidewalk. We played with it for a while, and when I pointed a digital camera directly into the eyepiece and took a picture, the image looked like a picture of a planet! And the idea was born.
+						Sometime in 2010, I was interested in Exoplanets and all the new exoplanet discoveries being made. Then one day, me and my Son found a microscope on the sidewalk. We played with it for a while, and when I pointed a digital camera directly into the eyepiece and took a picture, the image looked like a picture of a planet! And the idea was born.
 						<br />
-						I began to put different items in the slide and took pictures. Each photo looked entirely unique. Each item simulated a different kind of planet. I have saved these images and became busy with other things. Promising to create a website for it someday.
+						I began to put different items on the slide and took pictures. Each photo looked entirely unique and simulated a different kind of planet. I saved these images and stashed them away and forgot about them as I became busy with other priorities. I promised to create a website for it someday.
 						<br />
 						<br />
 						<Strong
@@ -113,20 +108,30 @@ export default (() => {
 							hyphens="manual"
 						>
 							Here and Now
+							<br />
 						</Strong>
 						<br />
-						With all the rage that has happened with NFTs a couple months ago, I dreamed of owning at least one NFT in my wallet, or creating one of my own. But gas fees were too high and I can't afford Beeple's artworks.
-						<br />
-						Then I came across #OBJKT4OBJKT hicetnunc on twitter and carefully picked my collection of free but awesome NFTs. I was so happy because I finally "became" an art collector!  :) Then I felt that I had to give back...someday...
+						With all the rage that has happened with NFTs a couple months ago, I dreamed of owning at least one NFT from an artist, and/or creating one of my own. But gas fees were too high. I was looking for alternatives to Ethereum such as Tezos when I came across hicetnunc and #OBJKT4OBJKT on twitter. I carefully picked my collection of free but awesome NFTs. I was happy because my dream of owning an awesome NFT became true. In fact it was a little too much that I felt like I "became" an art collector!  :) Then I felt that I had to give back...someday...
 						<br />
 						I was ready to sign off for the night when i wondered what Hic Et Nunc meant. It was Latin for "Here and Now".
 						<br />
 						I had to act now.
 						<br />
-						I remembered the Exoplanet pictures I had that were idle in my GDrive and minted one of them. It was my very first NFT.
+						I remembered the old exoplanet pictures I stashed that were idle in my GDrive. I minted one of them. It was my very first NFT.
+						<br />
+						I resurrected the whole idea, bought the exoprobes.xyz domain name that same night and was able to BUIDL the site the next day.
 						<br />
 						The rest is history.
 						<br />
+						<br />
+						<Strong>
+							Roadmap
+							<br />
+						</Strong>
+						<br />
+						I will continue to mint the rest of the exoplanet images and clean up my gdrive. I will refine this website and possibly create a dApp around this whole idea. Adding more science and fiction around the ExoProbes.{" "}
+						<br />
+						Proceeds from the sales of NFTs will fund future endeavors on this ExoProbes project.
 					</Text>
 				</StackItem>
 				<StackItem width="25%" md-width="100%">
