@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Text, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Section } from "@quarkly/components";
+import { Section, StackItem, Stack } from "@quarkly/components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -30,9 +30,55 @@ export default (() => {
 					.
 				</Text>
 				<Text font="--base">
-					In 2082, ExoProbes were launched to survey exoplanets around nearby stars. After thousands of years, first transmissions of the ExoProbes were finally received back on Earth. This is a raw image of an exoplanet that was captured by one of the probes.
+					In 2082, ExoProbes were launched to survey exoplanets around nearby stars.{" "}
+					<br />
+					After thousands of years, the first transmissions of the ExoProbes were finally received back on Earth.
 				</Text>
 			</Box>
+		</Section>
+		<Section
+			padding="60px 0"
+			sm-padding="40px 0"
+			min-height="600px"
+			sm-min-height="auto"
+			background="--color-light"
+			display="flex"
+			flex-direction="column"
+		>
+			<Text
+				font="--base"
+				text-transform="uppercase"
+				letter-spacing="1px"
+				max-width="850px"
+				color="--grey"
+				margin="0px"
+			>
+				Meta-INFORMATION
+			</Text>
+			<Text
+				as="h1"
+				margin="8px 0px 32px"
+				font="--headline1"
+				md-font="--headline2"
+				color="--dark"
+				max-width="850px"
+			>
+				About the Images
+			</Text>
+			<Stack margin-top="auto" color="--grey" font="--base">
+				<StackItem width="75%" md-width="100%">
+					<Text margin="0px" max-width="600px">
+						The "exoplanet" images are created using a microscope and a digital camera. A chosen object that serves as a "seed" for the planet is placed under a microscope. Then a camera pointed directly into the eyepiece is used to take a picture. This serves as a simulation of the ExoProbe taking a picture of the planet.{" "}
+						<br />
+						There is no digital manipulation involved with the images. This is intentional so as to preserve the imperfections and to simulate the noise that will be in the introduced in the transmissions beamed from lightyears away.{" "}
+					</Text>
+				</StackItem>
+				<StackItem width="25%" md-width="100%">
+					<Text margin="0px">
+						Hi! I'm a paragraph. Click here to add your own text and edit me. It’s a piece of cake.
+					</Text>
+				</StackItem>
+			</Stack>
 		</Section>
 		<Link
 			font={"--capture"}
