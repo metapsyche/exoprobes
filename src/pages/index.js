@@ -75,7 +75,7 @@ export default (() => {
 				</StackItem>
 				<StackItem width="25%" md-width="100%">
 					<Text margin="0px">
-						Hi! I'm a paragraph. Click here to add your own text and edit me. It’s a piece of cake.
+						.
 					</Text>
 				</StackItem>
 			</Stack>
