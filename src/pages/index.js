@@ -34,6 +34,30 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
+		<Section padding="140px 0" sm-padding="40px 0" background="url(https://uploads.quarkly.io/6085970723a143001e08fffc/images/ExoProbes0001.jpg?v=2021-04-25T22:26:32.700Z) center/cover">
+			<Box max-width="240px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
+				<Text
+					as="h4"
+					font="--base"
+					color="--grey"
+					letter-spacing="1px"
+					text-transform="uppercase"
+					margin="6px 0"
+				>
+					What are ExoProbes?
+				</Text>
+				<Text font="--base">
+					Exoprobes are part spaceship, part robot. They are sentient probes. They are autonomous, yet they have a directive.
+					<br />
+					{" "}
+					<br />
+					Their mission is to explore exoplanets and report back to mankind their discoveries.{" "}
+					<br />
+					<br />
+					They are explorers and wanderers--proxies for humanity's innermost desire to discover and to learn.
+				</Text>
+			</Box>
+		</Section>
 		<Section
 			padding="60px 0"
 			sm-padding="40px 0"
