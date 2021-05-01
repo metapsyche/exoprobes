@@ -253,9 +253,7 @@ export default (() => {
 				<Box padding="10px" />
 			</Box>
 		</Section>
-		<Components.Ad>
-			<Components.EmbedHTML />
-		</Components.Ad>
+		<Components.AdEmbed />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
