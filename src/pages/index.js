@@ -4,6 +4,7 @@ import { Theme, Link, Text, Box, Strong, Em, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Section, StackItem, Stack } from "@quarkly/components";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -252,11 +253,9 @@ export default (() => {
 				<Box padding="10px" />
 			</Box>
 		</Section>
-		<Section text-align="center" padding="100px 0" sm-padding="40px 0">
-			<Box display="flex" margin="40px 0 20px 0" justify-content="space-around" sm-flex-direction="column">
-				<Box padding="10px" />
-			</Box>
-		</Section>
+		<Components.Ad>
+			<Components.EmbedHTML />
+		</Components.Ad>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
