@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Strong, Image } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Strong, Em, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Section, StackItem, Stack } from "@quarkly/components";
@@ -30,7 +30,10 @@ export default (() => {
 					In 2082, ExoProbes were launched to survey exoplanets around nearby stars.{" "}
 					<br />
 					<br />
-					After thousands of years, the first transmissions of the ExoProbes were finally received back on Earth.
+					After thousands of years of traveling through interstellar space, they finally reached their destinations and beamed their reports back to earth.{" "}
+					<br />
+					<br />
+					...we are now receiving their  transmissions*.
 				</Text>
 			</Box>
 		</Section>
@@ -47,7 +50,7 @@ export default (() => {
 					What are ExoProbes?
 				</Text>
 				<Text font="--base">
-					Exoprobes are part spaceship, part robot. They are sentient probes. They are autonomous, yet they have a directive.
+					Exoprobes are part spaceship, part robot, and part human. They are sentient probes. They are autonomous, and they have a directive.
 					<br />
 					{" "}
 					<br />
@@ -142,15 +145,29 @@ export default (() => {
 							<br />
 						</Strong>
 						<br />
-						With all the rage that has happened with NFTs a couple months ago, I dreamed of owning at least one NFT from an artist, and/or creating one of my own. But gas fees were too high. I was looking for alternatives to Ethereum such as Tezos when I came across hicetnunc and #OBJKT4OBJKT on twitter. I carefully picked my collection of free but awesome NFTs. I was happy because my dream of owning an awesome NFT became true. In fact it was a little too much that I felt like I "became" an art collector!  :) Then I felt that I had to give back.
+						With all the rage that has happened with NFTs a couple months ago, I dreamed of owning at least one NFT from an artist, and/or creating one of my own. But gas fees were too expensive! I was looking for alternatives to Ethereum such as Tezos when I came across hicetnunc and #OBJKT4OBJKT on twitter. I carefully picked my collection of free but awesome NFTs. I was happy because my dream of owning an awesome NFT became true. In fact it was a little too much that I felt like I "became" an art collector!  :) Then I felt that I had to give back.
 						<br />
-						I was ready to sign off for the night when i wondered what Hic Et Nunc meant. It was Latin for "Here and Now".
+						I was ready to sign off for the night when i wondered what "
+						<Em>
+							Hic Et Nunc
+						</Em>
+						" meant. It was Latin for "
+						<Em>
+							<Strong>
+								Here and Now
+							</Strong>
+						</Em>
+						".
 						<br />
-						I was inspired. But I had to act then and there.
+						I was inspired.
 						<br />
-						I remembered the old exoplanet pictures I stashed that were idle in my GDrive. I minted one of them. It was my very first NFT.
+						I remembered the old "exoplanet" pictures I stashed that were idle in my gDrive. I minted one of them. It was my very first NFT!
 						<br />
-						I resurrected the whole idea, bought the exoprobes.xyz domain name that same night and was able to BUIDL the site the next day. What a weekend project!
+						I resurrected my exoprobes idea, and bought the exoprobes.xyz domain that night (I chose the ".xyz" as a tribute to hicetnunc.
+						<Strong>
+							xyz
+						</Strong>
+						). Then I published the site the next day. What a weekend project!
 						<br />
 						The rest is history.
 						<br />
@@ -167,11 +184,9 @@ export default (() => {
 							<br />
 						</Strong>
 						<br />
-						I will continue to mint the rest of the exoplanet images and clean up my gdrive. I will refine this website and possibly create a dApp around this whole idea.
+						I will continue to mint the rest of the exoplanet images and clean up my gDrive. I will refine this website and maybe create a dApp around this whole idea.
 						<br />
-						I will also add more science, and fiction, around the whole ExoProbes concept.
-						<br />
-						Proceeds from the sales of NFTs will fund future endeavors on this ExoProbes project.
+						I will also add more science, and fiction, (stories!) around the ExoProbes concept. Also, i will improve my NFTs, and make them interactive.
 					</Text>
 				</StackItem>
 				<StackItem width="25%" md-width="100%">
