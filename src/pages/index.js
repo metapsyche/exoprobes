@@ -201,7 +201,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section text-align="center" padding="100px 0" sm-padding="40px 0">
+		<Section text-align="center" padding="100px 0" sm-padding="40px 0" quarkly-title="Transmissions">
 			<Text as="h1" font="--headline1" md-font="--headline2" margin="20px 0 0 0">
 				Transmissions
 			</Text>
@@ -253,7 +253,9 @@ export default (() => {
 				<Box padding="10px" />
 			</Box>
 		</Section>
-		<Components.AdEmbed />
+		<Section background="--color-dark" padding="60px 0" sm-padding="40px 0">
+			<Components.AdEmbed />
+		</Section>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
