@@ -252,6 +252,11 @@ export default (() => {
 				<Box padding="10px" />
 			</Box>
 		</Section>
+		<Section text-align="center" padding="100px 0" sm-padding="40px 0">
+			<Box display="flex" margin="40px 0 20px 0" justify-content="space-around" sm-flex-direction="column">
+				<Box padding="10px" />
+			</Box>
+		</Section>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
